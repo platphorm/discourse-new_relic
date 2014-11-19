@@ -14,7 +14,7 @@ Assuming you've followed the above instructions for the Discourse Docker image:
  6. In the `hooks` section at the bottom, add the following to `cmd:`
 
 ```yaml
-- git clone https://github.com/davidcelis/new_relic-discourse.git
+- git clone https://github.com/platphorm/discourse-new_relic.git
 ```
 
 The next time you bootstrap and start a new container for your forums, it'll start reporting into New Relic! Yay! To restart Discourse so that it picks up the new plugin, just SSH into your server and do the following:
